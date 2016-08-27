@@ -1,7 +1,7 @@
 language: scala
 jdk: oraclejdk8
 scala:
-- 2.11.7
+- 2.11.8
 sudo: false
 cache:
   directories:
@@ -9,5 +9,6 @@ cache:
   - $HOME/.sbt/boot/
 script:
   - sbt clean coverage test
+  - sbt coverageReport
 after_success:
   - bash <(curl -s https://codecov.io/bash)
