@@ -30,7 +30,7 @@ class PersonsRepositoryImpl @Inject()(config: Configuration, client: AmazonDynam
                                       @Named(Guice.DynamoRepository) executionContext: ExecutionContext) extends PersonsRepository {
   val log = Logger(this.getClass)
   lazy val tableName = {
-    val result = DynamoDB.Settings(config).tableName.getOrElse("local-members-table")
+    val result = DynamoDB.Settings(config).tableName.getOrElse("local-persons-table")
     log.info(s"Table: $result")
     result
   }
