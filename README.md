@@ -8,7 +8,7 @@ and attempts to follow a functional style along with following good
 practices such as bulk-heading and using tools to enforce style and 
 coverage.
 
-[![Build Status](https://travis-ci.org/calvinlfer/play-framework-validation-example.svg?branch=master)](https://travis-ci.org/calvinlfer/play-framework-validation-example)
+[![Build Status](https://travis-ci.org/calvinlfer/Play-Framework-example.svg?branch=master)](https://travis-ci.org/calvinlfer/Play-Framework-example)
 
 More Information
 ================
