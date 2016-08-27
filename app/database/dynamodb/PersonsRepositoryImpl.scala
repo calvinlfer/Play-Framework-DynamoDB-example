@@ -50,6 +50,7 @@ class PersonsRepositoryImpl @Inject()(config: Configuration, client: AmazonDynam
     result.map(_ => Right(person)).recover(captureAndFail[Person]("Create Person failed"))
   }
 
+  // TODO: Implement using update instead
   override def update(person: Person): Future[Either[RepositoryError, Person]] = create(person)
 
   override def all: Future[Either[RepositoryError, Seq[Person]]] = {
