@@ -9,6 +9,8 @@ practices such as bulk-heading and using tools to enforce style and
 coverage.
 
 [![Build Status](https://travis-ci.org/calvinlfer/Play-Framework-example.svg?branch=master)](https://travis-ci.org/calvinlfer/Play-Framework-example)
+[![codecov](https://codecov.io/gh/calvinlfer/Play-Framework-example/branch/master/graph/badge.svg)](https://codecov.io/gh/calvinlfer/Play-Framework-example)
+
 
 More Information
 ================
